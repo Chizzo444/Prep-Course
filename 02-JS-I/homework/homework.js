@@ -83,40 +83,40 @@ function mayorQueCincuenta(num) { if (num > 50) {return true;} return false;}
 
 }
 
-function obtenerResto(x, y) {
+function obtenerResto(x, y) {x % y);}
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
 
 }
 
-function esPar(num) {
+function esPar(num) {  if (num % 2 == 0) {return true;} return false;}
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
 
 }
 
-function esImpar(num) {
+function esImpar(num) {  if (num % 2 == 1) {return true;} return false;}
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
 
 }
 
-function elevarAlCuadrado(num) {
+function elevarAlCuadrado(num) {console.log (num*num);}
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
 
 }
 
-function elevarAlCubo(num) {
+function elevarAlCubo(num) {console.log (num*num*num);}
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
 
 }
 
-function elevar(num, exponent) {
+function elevar(num, exponent) {Math.pow;}
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
 
