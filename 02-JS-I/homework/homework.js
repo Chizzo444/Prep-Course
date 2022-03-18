@@ -145,7 +145,7 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-
+var esPositivo = math.sign (numero);  return esPositivo;
 }
 
 function agregarSimboloExclamacion(str) {
