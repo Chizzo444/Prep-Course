@@ -57,14 +57,14 @@ function divide(x, y) {
 function sonIguales (x,y) {   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (x==y) { return true;} return false;
+  if (x===y) { return true;} return false;
 }
 
 function tienenMismaLongitud(str1, str2) {  
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (str1==str2) { return true;} return false;
+  if (str1.length===str2.length) { return true;} return false;
 }
 
 function menosQueNoventa(num) { 
