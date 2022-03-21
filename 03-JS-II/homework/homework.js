@@ -15,7 +15,7 @@ function mayoriaDeEdad(edad) {
   if(edad >= 18) {
     return "Allowed";}else {return "Not allowed";
   }
-  
+}
 function conection(status) {
   //Recibimos un estado de conexión de un usuario representado por un valor numérico. 
   //Cuando el estado es igual a 1, el usuario está "Online"
@@ -31,7 +31,7 @@ function conection(status) {
   else {
     return "Offline";
   }
-
+}
 function saludo(idioma) {
   // Devuelve un saludo en tres diferentes lenguajes:
   // Si "idioma" es "aleman", devuelve "Guten Tag!"
@@ -49,7 +49,7 @@ function saludo(idioma) {
     return 'Hola!';
 }
 
-function colors(color) {
+function colors (color) {
   //La función recibe un color. Devolver el string correspondiente:
   //En caso que el color recibido sea "blue", devuleve --> "This is blue"
   //En caso que el color recibido sea "red", devuleve --> "This is red"
@@ -196,7 +196,7 @@ function doWhile(numero) {
 // No modificar nada debajo de esta línea
 // --------------------------------
 
-module.exports = 
+module.exports ={
   obtenerMayor,
   mayoriaDeEdad,
   conection,
@@ -212,3 +212,4 @@ module.exports =
   tablaDelSeis,
   tieneTresDigitos,
   doWhile
+}
